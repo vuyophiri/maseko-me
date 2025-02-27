@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Vuyo",
+  lastName: "Phiri",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Africa/Johannesburg", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Zulu", "Afrikaans", "Sesotho"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/vuyophiri",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/vuyophiri/",
   },
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/uBabMaseko",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:vuyophiri@gmail.com",
   },
 ];
 
@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Software Engineer</>,
   subline: (
     <>
       I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
@@ -81,9 +81,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I’m Vuyo Phiri, a passionate software engineer with expertise in designing, 
+        developing, and optimizing high-performance applications. With a strong foundation 
+        in full-stack development, cloud computing, and DevOps, I specialize in creating seamless 
+        digital experiences that drive innovation. My approach combines clean architecture, 
+        scalability, and modern technologies to build robust applications that meet business needs.
       </>
     ),
   },
@@ -92,44 +94,38 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Maseko Interactive",
+        timeframe: "2024 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed and maintained web applications using React, Node.js, and Python.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Built and integrated RESTful and GraphQL APIs for seamless data exchange.
           </>,
+          <>
+          Designed and optimized database queries (PostgreSQL, MongoDB) for efficiency.
+        </>,
+        <>
+          Converted UI/UX designs into responsive, interactive web pages using React and Tailwind CSS.
+        </>,
+        <>
+        Fixed bugs and performance issues, improving software stability.
+      </>,
+      <>
+        Assisted in setting up CI/CD pipelines for automated testing and deployment.
+      </>,
+      <>
+      Helped with Dockerizing applications and deploying them to cloud services (AWS, Firebase).
+    </>,
+    <>
+      Wrote and executed unit tests and integration tests using Jest and Cypress.
+    </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          
         ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
       },
     ],
   },
@@ -138,12 +134,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "North West University, ZA",
+        description: <>B.S.c in Information Technology.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "IU International University of Applied Sciences, DE",
+        description: <>B.S.c in Computer Science.</>,
       },
     ],
   },
@@ -152,35 +148,67 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Programming Languages",
+        description: <>JavaScript (Node.js, TypeScript), C#, C++, Python.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Frontend Development",
+        description: <>React.js, Next.js, Tailwind CSS, HTML, CSS, Bootstrap.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          
+        ],
+      },
+      {
+        title: "Backend Development",
+        description: <>Node.js (Express, NestJS), FastAPI, Django.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+      {
+        title: "Databases",
+        description: <>PostgreSQL, MongoDB, Firebase, MySQL.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+      {
+        title: "APIs & Integrations",
+        description: <>RESTful APIs, GraphQL, WebSockets.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+      {
+        title: "Testing & QA",
+        description: <>Jest, Cypress, Postman, Selenium</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+      {
+        title: "Version Control & Collaboration",
+        description: <>Git, GitHub, GitLab, Agile.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+      {
+        title: "Other Tools & Technologies",
+        description: <>Linux.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
         ],
       },
     ],
